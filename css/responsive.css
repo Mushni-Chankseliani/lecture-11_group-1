@@ -1,0 +1,17 @@
+@media (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .left-block {
+        margin-bottom: 15px;
+    }
+
+    .right-block {
+        max-width: 720px;
+    }
+}

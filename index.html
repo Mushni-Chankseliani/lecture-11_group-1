@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lecture 11</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="icon" type="image/png" href="https://cdn.freebiesupply.com/logos/thumbs/2x/slack-logo-thumb.png" />
+</head>
+<body>
+    <h1 class="requred">test</h1>
+    <section style="margin: 30px;">
+        <div class="container">
+            <form action="" method="post">
+                <div class="form-elements-wrapper">
+                    <label class="requred" for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Enter name">
+                </div>
+
+                <div class="form-elements-wrapper">
+                    <label class="requred" for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter email">
+                </div>
+
+                <div class="form-elements-wrapper">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Enter password">
+                </div>
+
+
+                <div class="form-elements-wrapper">
+                    <label for="decription">Decription</label>
+                    <textarea class="textarea" name="decription" id="decription" placeholder="Enter decription"></textarea>
+                </div>
+
+
+                <div class="form-elements-wrapper">
+                    <div>
+                        <input type="radio" id="female" name="gender" value="female">
+                        <label for="female">female</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="male" name="gender" value="male">
+                        <label for="male">male</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="other" name="gender" value="other">
+                        <label for="other">other</label>
+                    </div>
+                </div>
+
+                <div class="form-elements-wrapper">
+                    <div>
+                        <input type="checkbox" id="agreement" name="agreement" value="Bike">
+                        <label for="agreement">I agree terms and conditions</label>
+                    </div>
+                </div>
+
+
+                <div class="form-buttons-wrapper">
+                    <button class="button reset" type="reset">Reset</button>
+                    <button class="button save" type="submit">Save</button>
+                </div>
+
+            </form>
+        </div>
+    </section>
+
+    <!-- assign form example -->
+    <section style="margin-bottom: 50px;">
+        <div class="container">
+            <form class="form" action="" method="post">
+                <div class="left-block">
+                    <textarea name="decription" id="decription" placeholder="Enter comment"></textarea>
+                </div>
+                <div class="right-block">
+                    <input type="text" placeholder="Enter subject" name="subject" id="subject" required>
+                    <input type="text" placeholder="Enter name and surname" name="name-surname" id="name-surname" required>
+                    <input type="email" placeholder="Enter email" name="email" id="email" required>
+                    <input type="submit" value="Save">
+                </div>
+            </form>
+        </div>
+    </section>
+    <!-- assign form example -->
+    
+</body>
+</html>
